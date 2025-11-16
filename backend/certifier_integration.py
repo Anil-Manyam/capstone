@@ -13,13 +13,13 @@ def main():
     print(f"  - Block Timestamp:    {timestamp}")
     print("------------------------------------\n")
 
-    # enable to store a new file. use absolute file path
-    singleFilePath = "C:/Users/anilm/OneDrive/Documents/Fall-2026/Capstone/CertRoot/backend/files/Labrador Benefits form.pdf"
-    new_record_Id, digest, tx_hash = store_record(singleFilePath)
-    print(f"  - Record ID :         {new_record_Id}")
-    print(f"  - File hash :         {digest}")
-    print(f"  - transaction hash :       {tx_hash}")
-    print("------------------------------------\n")
+    # # enable to store a new file. use absolute file path
+    # singleFilePath = "C:\\Users\\gerar\\OneDrive\\Desktop\\temp\\test\\CertRoot\\backend\\files\\frog_modified.png"
+    # new_record_Id, digest, tx_hash = store_record(singleFilePath)
+    # print(f"  - Record ID :         {new_record_Id}")
+    # print(f"  - File hash :         {digest}")
+    # print(f"  - transaction hash :       {tx_hash}")
+    # print("------------------------------------\n")
 
     print(f"  - Total records:       {get_total_record()}") 
 
